@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --ward-black-20: rgba(24, 28, 28, 0.2);
+  --ward-black: rgba(24, 28, 28, 1);
+  --ward-black-50: rgba(24, 28, 28, 0.5);
+  --ward-blue: rgba(55, 119, 188, 1);
+  --ward-blue-50: rgba(55, 119, 188, 0.5);
+  --ward-pink: rgba(218, 88, 153, 1);
+  --ward-pink-30: rgba(218, 88, 153, 0.3);
+  --ward-red: rgba(241, 90, 56, 1);
+  --ward-red-20: rgba(241, 90, 56, 0.2);
+  --ward-white: rgba(246, 241, 242, 1);
+  --ward-white-60: rgba(246, 241, 242, 0.6);
+}
